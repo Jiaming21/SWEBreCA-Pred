@@ -1,4 +1,3 @@
-<img width="6349" alt="image" src="https://github.com/user-attachments/assets/17ee3606-d277-485b-a5de-876faf48d5cc"># SWEBreCA-Pred
+# SWEBreCA-Pred
 In this experiment, we explored four ML approaches, including XGB, SVM, RF, LR, and nine DL approaches, including AlexNet, GoogLeNet, ShuffleNet, ResNet (34, 50, 101), Vision Transformer (ViT), EfficientNetV2 (s, m, l), MobileNet (V2, V3_l, V3_s), DenseNet (121, 161, 169, 201) and MobileViT (s, x_s, xx_s),  to classify breast cancer with SWE images. Each original SWE image is cropped into four types of images (RE-SWE, RE-US, SWE, US). Results demonstrate the model with the highest AUROC for each image type. To give a visual interpretability, four CAM-based approaches are employed. Moreover, a webserver is constructed to facilitate usage. Future research involves ensemble learning by averaging predictions from four models with the highest AUROC for each image type. 
-<img width="6349" alt="image" src="https://github.com/user-attachments/assets/9cac8ab6-9b3d-4b07-a405-da08eb5a3417">
 
