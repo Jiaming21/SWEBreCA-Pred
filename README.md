@@ -1,2 +1,4 @@
-# SWEBreCA-Pred
- This is the SURF project. 
+## SWEBreCA-Pred
+In this experiment, we explored four ML approaches, including XGB, SVM, RF, LR, and nine DL approaches, including AlexNet, GoogLeNet, ShuffleNet, ResNet (34, 50, 101), Vision Transformer (ViT), EfficientNetV2 (s, m, l), MobileNet (V2, V3_l, V3_s), DenseNet (121, 161, 169, 201) and MobileViT (s, x_s, xx_s),  to classify breast cancer with SWE images. Each original SWE image is cropped into four types of images (RE-SWE, RE-US, SWE, US). Results demonstrate the model with the highest AUROC for each image type. In conclusion, GoogLeNet, ShuffleNet, GoogLeNet, and ResNet-34 are the four models with the highest AUROC under the independent test respectively. After the ensemble learning by averaging predictions from four models with the highest AUROC for each image type, the AUROC is further elevated. To give a visual interpretability, four CAM-based approaches are employed. Moreover, a webserver is constructed to facilitate usage. Future research involves ensemble learning by averaging predictions from four models with the highest AUROC for each image type. To facilitate broader usage, a user-friendly webserver is developed, which can be freely visited at http://www.biotools.tech/SWEBreCA-Pred/index.html.
+
+
